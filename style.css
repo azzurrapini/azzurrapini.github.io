@@ -14,9 +14,43 @@ body {
 	padding-left: 20px;
 	padding-right: 40px;
 	display: block;
-	color: #00fdfa;
+    font-family: 'HKGroteskRegular', sans-serif;
+    color: #ffffff;
+}
+
+/* 
+
+.main-title {
+    font-family: 'HKGroteskRegular', sans-serif;
+    font-weight: 100px;
+    color: #ffffff;
+    opacity: 0.1;
+}
+
+.main-title:hover {
+    color: #ffffff;
+    opacity: 1.0;
+}
+ */
+
+#name {
+    font-family: 'HKGroteskRegular', sans-serif;
+    font-weight: 100px;
+    color: #ffffff;
+    opacity: 0.1;
+}
+
+#name:hover {
+    color: #ffffff;
+    opacity: 1.0;
+}
+
+
+
+.main-txt {
     text-align: left;
-    font-family: sans-serif;
+    font-family: 'HKGroteskRegular', sans-serif;
+
 }
 
 
@@ -26,3 +60,17 @@ img {
     width: 100%;
     padding-top: 50px;
 }
+
+/* LINKS */
+a:link {
+    color: #00fdfa;
+}
+
+a:visited {
+    color: #00fdfa;
+}
+
+a:hover {
+    color: white;
+}
+
