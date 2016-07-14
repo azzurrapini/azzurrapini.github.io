@@ -1,0 +1,28 @@
+body {
+    background-color: blue;
+    padding-top:20px;
+
+}
+
+.prov-txt {
+	color: #ffffff;
+    text-align: center;
+    font-family: serif;
+}
+
+.main-block {
+	padding-left: 20px;
+	padding-right: 40px;
+	display: block;
+	color: #00fdfa;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-top: 50px;
+}
