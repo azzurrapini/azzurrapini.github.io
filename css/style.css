@@ -1,0 +1,118 @@
+html,
+body {
+    height: 100%;
+    background-color: #0000ff;
+    position: relative;
+    font-family: 'HKGroteskRegular', sans-serif;
+    text-align: left;
+}
+/*
+.prov-txt {
+	color: #ffffff;
+    text-align: center;
+    font-family: serif;
+}*/
+
+.main-block {
+    padding-top: 20px;
+	display: block;
+    font-size: 195%;
+    color: #ffffff;
+    line-height: 125%;
+}
+
+
+.main-title {
+    font-family: 'HKGroteskBold', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 4px;
+    padding-bottom: 30px;
+}
+
+/*
+.main-title:hover {
+    color: #00ff00;
+    opacity: 1.0;
+}
+*/
+
+.main-title:hover {
+    color: blue;
+}
+
+
+.main-txt {
+    padding-top: 20px;
+    letter-spacing: 1.5px;
+}
+
+.blue:hover {
+    color:blue;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-top: 50px;
+}
+
+/* LINKS */
+a:link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: cyan;
+}
+
+/*
+a:visited {
+    color: #ff0000;
+}
+
+a:hover {
+    color: red;
+}
+*/
+
+
+/* Tooltip */
+
+.mytooltip + .tooltip {
+    color: #0000ff;
+    font-size: 12px;
+    text-align: left;
+  }
+
+.tooltip-inner {
+    background-color: white;
+    color: blue;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: white;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: white;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: white;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: white;
+}
+
+
+
+
