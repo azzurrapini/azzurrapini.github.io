@@ -38,7 +38,7 @@ body {
 */
 
 .main-title:hover {
-    color: blue;
+    color: #0000ff;
 }
 
 
@@ -48,7 +48,7 @@ body {
 }
 
 .blue:hover {
-    color:blue;
+    color:#0000ff;
 }
 
 
@@ -70,7 +70,7 @@ a:visited {
 }
 
 a:hover {
-    color: cyan;
+    color: #00ffff;
 }
 
 /*
@@ -86,33 +86,36 @@ a:hover {
 
 /* Tooltip */
 
-.mytooltip + .tooltip {
+.mytooltip + .tooltip > .tooltip-inner {
     color: #0000ff;
     font-size: 12px;
     text-align: left;
+    background-color: white;
+    width: 150px;
   }
 
-.tooltip-inner {
-    background-color: white;
-    color: blue;
-}
-
-.tooltip.top .tooltip-arrow {
-    border-top-color: white;
-}
-
-.tooltip.right .tooltip-arrow {
-    border-right-color: white;
-}
-
-.tooltip.bottom .tooltip-arrow {
+.mytooltip + .tooltip > .tooltip-arrow {
     border-bottom-color: white;
 }
 
-.tooltip.left .tooltip-arrow {
+/*
+.mytooltip + .tooltip > .tooltip.top .tooltip-arrow {
+    border-top-color: white;
+}
+
+.mytooltip + .tooltip > .tooltip.right .tooltip-arrow {
+        border-right-color: white;
+}
+
+.mytooltip + .tooltip > .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: white;
+}
+
+.mytooltip + .tooltip > .tooltip.left .tooltip-arrow {
     border-left-color: white;
 }
 
+*/
 
 
 
