@@ -5,7 +5,7 @@ body {
     position: relative;
     font-family: 'DM Sans', sans-serif;
     text-align: left;
-    font-weight: 400;
+    font-weight: normal;
 }
 
 /*
@@ -18,7 +18,7 @@ body {
 .main-block {
     padding-top: 20px;
 	display: block;
-    font-size: 200%;
+    font-size: 120%;
     color: #ffffff;
     line-height: 110%;
 }
@@ -27,7 +27,8 @@ body {
 .main-title {
     font-family: 'DM Sans', sans-serif;
     color: #ffffff;
-    font-weight: 700;
+    font-size: 200%;
+    font-weight: bold;
     letter-spacing: 4px;
     padding-bottom: 30px;
 }
