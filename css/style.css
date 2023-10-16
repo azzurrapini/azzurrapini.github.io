@@ -3,10 +3,12 @@ body {
     height: 100%;
     background-color: #0000ff;
     position: relative;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM+Sans', sans-serif;
+    font-style: Regular;
     text-align: left;
-    font-weight: normal;
+    font-weight: 400;
 }
+
 
 /*
 .prov-txt {
@@ -25,10 +27,10 @@ body {
 
 
 .main-title {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM+Sans', sans-serif;
     color: #ffffff;
     font-size: 200%;
-    font-weight: bold;
+    font-weight: 700;
     letter-spacing: 4px;
     padding-bottom: 30px;
 }
