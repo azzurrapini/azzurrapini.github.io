@@ -17,6 +17,11 @@ body {
     font-size: 170%;
 }
 
+.img {
+    padding: 20px;
+    width: 100% \9;
+}
+
 .main-block {
     padding-top: 20px;
 	display: block;
