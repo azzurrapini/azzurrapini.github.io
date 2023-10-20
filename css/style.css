@@ -19,6 +19,11 @@ body {
     font-weight: bold;
 }
 
+.expertise {
+    font-family: 'HKGroteskBold', sans-serif;
+    font-weight: bold;
+}
+
 img {
     padding: 40px;
     width: 100% \9;
