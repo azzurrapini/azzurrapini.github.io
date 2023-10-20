@@ -22,6 +22,9 @@ body {
 .expertise {
     font-family: 'HKGroteskBold', sans-serif;
     font-weight: bold;
+    padding: 40px;
+    border-style: solid;
+    border-color: white;
 }
 
 img {
