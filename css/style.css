@@ -15,11 +15,13 @@ body {
 
 .headline {
     font-size: 170%;
+    font-weight: bold;
 }
 
-.img {
+img {
     padding: 20px;
     width: 100% \9;
+    height: auto;
 }
 
 .main-block {
@@ -35,16 +37,11 @@ body {
     font-family: 'HKGroteskBold', sans-serif;
     color: #ffffff;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     padding-bottom: 30px;
+    padding-top: 8px;
 }
 
-/*
-.main-title:hover {
-    color: #00ff00;
-    opacity: 1.0;
-}
-*/
 
 .main-title:hover {
     color: #0000ff;
@@ -61,12 +58,12 @@ body {
 }
 
 
-img {
+/* img {
     display: block;
     margin: auto;
     width: 100%;
     padding-top: 50px;
-}
+} */
 
 /* LINKS */
 a:link {
