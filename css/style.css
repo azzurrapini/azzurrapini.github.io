@@ -13,6 +13,10 @@ body {
     font-family: serif;
 }*/
 
+.headline {
+    font-size: 170%;
+}
+
 .main-block {
     padding-top: 20px;
 	display: block;
