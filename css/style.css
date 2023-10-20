@@ -5,6 +5,7 @@ body {
     position: relative;
     font-family: 'HKGroteskRegular', sans-serif;
     text-align: left;
+    line-height: 1.5;
 }
 /*
 .prov-txt {
@@ -20,7 +21,7 @@ body {
 
 img {
     padding: 40px;
-    width: 50% \9;
+    width: 100% \9;
     height: auto;
 }
 
